@@ -1,0 +1,259 @@
+Trafo3b_2V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	1,20 V	-1,20 V	50,00 Hz
+B	0,00 V	0,00 V	0,84 V	-0,84 V	50,00 Hz
+
+Trafo5_300mV_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	prim�r
+CH B	sekund�r
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	 0 V	 0 V	29 mV	-29 mV	50,00 Hz
+B	 0 V	 0 V	28 mV	-30 mV	50,00 Hz
+
+
+Trafo4_5V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	odpor
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	0,02 V	0,00 V	50,00 Hz
+B	0,00 V	0,00 V	0,00 V	-0,02 V	50,00 Hz
+
+
+Trafo3b_2V_50Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,80 V	0,00 V	1,14 V	-1,14 V	50,00 Hz
+B	0,68 V	0,00 V	0,94 V	-0,96 V	50,00 Hz
+
+
+Trafo3b_1V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	0,60 V	-0,60 V	50,00 Hz
+B	0,00 V	0,00 V	0,42 V	-0,44 V	50,00 Hz
+
+
+Trafo3b_1V_50Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,39 V	0,00 V	0,56 V	-0,56 V	50,00 Hz
+B	0,35 V	0,00 V	0,50 V	-0,50 V	49,95 Hz
+
+
+Trafo2b_2V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	1,66 V	-1,66 V	50,00 Hz
+B	0,00 V	0,00 V	0,54 V	-0,56 V	50,00 Hz
+
+
+Trafo2b_2V_50Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	1,08 V	0,00 V	1,52 V	-1,54 V	50,00 Hz
+B	0,55 V	0,00 V	0,78 V	-0,78 V	50,00 Hz
+
+
+Trafo2b_1V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	0,82 V	-0,82 V	50,00 Hz
+B	0,00 V	0,00 V	0,30 V	-0,32 V	50,00 Hz
+
+
+Trafo2b_1V_50Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,52 V	0,00 V	0,74 V	-0,74 V	49,85 Hz
+B	0,31 V	0,00 V	0,44 V	-0,44 V	50,00 Hz
+
+
+Trafo1b_2V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	0,16 V	-0,16 V	50,00 Hz
+B	0,00 V	0,00 V	1,84 V	-1,84 V	50,00 Hz
+
+
+Trafo1b_2V_50Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,11 V	0,00 V	0,16 V	-0,16 V	50,00 Hz
+B	1,30 V	0,00 V	1,84 V	-1,84 V	50,00 Hz
+
+
+Trafo1b_1V_100Hz.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,00 V	0,00 V	0,08 V	-0,08 V	50,00 Hz
+B	0,00 V	0,00 V	0,92 V	-0,92 V	50,00 Hz
+
+
+Trafo1b_1V.txt
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,06 V	0,00 V	0,08 V	-0,08 V	50,00 Hz
+B	0,65 V	0,00 V	0,92 V	-0,92 V	50,00 Hz
+
+Trafo1b_1V
+Oscilloscope 1.6.3
+
+Experiment
+Jm�no
+
+L E G E N D
+CH A	nap�t� na prim�rn� c�vce
+CH B	proud na odporu
+
+M E A S U R E
+Channel	U rms	U mean	U max	U min	f
+A	0,11 V	0,00 V	0,16 V	-0,16 V	50,00 Hz
+B	1,30 V	0,00 V	1,84 V	-1,84 V	50,00 Hz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
