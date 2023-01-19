@@ -1,5 +1,6 @@
 from cProfile import label
 from math import trunc
+from time import sleep
 from tokenize import Double
 from matplotlib.axis import YAxis
 import pandas as pd
@@ -31,7 +32,7 @@ for i in dir_list:
                 lines[k][j] = lines[k][j].replace(',', '.')
         #print(lines)
         for ik in lines:
-           # print(ik)
+            #print(ik)
             time.append(ik[0])
             Cha.append(float(ik[1]))
             Chb.append(float(ik[2])/100)
@@ -42,47 +43,44 @@ for i in dir_list:
         y2 = Chb[:trunc(len(Chb)/4)]
         
         print (len(x), len(y2), len(y))
-        '''
-        y2_moving_avarage = []
-        y_moving_avarage = []
-        window_size = 3
-        e=0
-        for y2_iter in range(len(y2)-window_size):
-            sumarum = 0
-            for y2_iter in range(window_size+y2_iter):
-              sumarum = sumarum + y2[y2_iter]
-            sumarum = sumarum/window_size
-            y2_moving_avarage.append(sumarum)
-            if y2_iter == len(y2)-window_size:
-                for kret in range(window_size):
-                    y2_moving_avarage.append(sumarum)
 
-        for y_iter in range(len(y)-window_size):
-            sumarum = 0
-            for y_iter in range(window_size+y_iter):
-                sumarum = sumarum + y[y_iter]
-            sumarum = sumarum/window_size
-            y_moving_avarage.append(sumarum)
-            if y_iter == len(y)-window_size:
-                for kret in range(window_size):
-                    y_moving_avarage.append(sumarum)
 
-        print (len(x), len(y2_moving_avarage), len(y_moving_avarage))
-        
-        del y_moving_avarage[len(y_moving_avarage)-window_size-2:len(y_moving_avarage)]
-        del y2_moving_avarage[len(y2_moving_avarage)-window_size-2:len(y2_moving_avarage)]
-        del x[len(x)-window_size-2:len(x)]
-        '''
+
+        y2_avarage = []
+        y2aproximater = 2
+        for y2aproximater in range(len(y2)-2):
+            av = 0
+            av = y2[y2aproximater] +y2[y2aproximater+2]+ y2[y2aproximater+1] + y2[y2aproximater-1]+y2[y2aproximater-2]
+            av = av/5
+            y2_avarage.append(av)
+
+        y_avarage = []
+        yaproximater = 2
+        for yaproximater in range(len(y2)-2):
+            av = 0
+            av = y[yaproximater] + y[yaproximater-2]+y[yaproximater+1]+y[yaproximater+2] + y[yaproximater-1]
+            av = av/5
+            y_avarage.append(av)
+
+        #print(y2_avarage)
+        #print(y_avarage)
+        #sleep(5)
+      
+      
+        del x[len(x)-2:len(x)]
+        del x[0:3]
+        del y_avarage[0:3]
+        del y2_avarage[0:3]
         #print (len(time), len(y2_moving_avarage), len(y_moving_avarage))
         fig,ax=plt.subplots()
-        ax.plot(x, y, color='C1')
+        ax.plot(x, y_avarage, color='C1')
         ax.set_xlabel('čas')
-        ax.set_ylabel('napětí na 1. cívce [A]', color='C1')
+        ax.set_ylabel('napětí [V]', color='C1')
         ax.xaxis.set_major_locator(plt.MaxNLocator(15))
         ax2 = ax.twinx()
-        ax2.plot(x, y2, color='C0')
-        ax2.set_ylabel('napětí na 2. cívce [A]', color='C0')
-        plt.title('Průběh napětí')
+        ax2.plot(x, y2_avarage, color='C0')
+        ax2.set_ylabel('proud [A]', color='C0')
+        plt.title('Průběh napětí proudu')
         #plt.show() 
         i = i.split('.')
         i = i[0]
