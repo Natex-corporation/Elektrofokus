@@ -1,0 +1,127 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[margin=13mm, tmargin=15mm, bmargin=12mm]{geometry}
+\usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{chngpage}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{mathptmx}
+\usepackage{lipsum}
+\usepackage{float}
+
+\renewcommand{\baselinestretch}{1.15}
+\pagenumbering{gobble}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\jmeno}{David Škrob, Tomáš Názler, Martin Číž}
+\newcommand{\trida}{L3A}
+\newcommand{\poradovecislo}{}
+\newcommand{\nazevulohy}{Diody na RC2000}
+\newcommand{\cisloulohy}{}
+\newcommand{\predmet}{Technické měření}
+\newcommand{\skupina}{}
+\newcommand{\datummereni}{14.12.2021 a 12.1.2022}
+\newcommand{\datumodevzdani}{12.1.2022}
+\newcommand{\klasifikace}{}
+
+\begin{document}
+\input{okraj.tex}
+\input{tabulka_hlavni.tex}
+
+\section*{Zadání}
+Změřte voltamperové charakteristiky (VA), použijte modul V-A Characteristics. Voltampérové
+charakteristiky v každém úkolu změřte do jednoho grafu.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.45\textwidth]{zapojeni1.png}
+	\caption{Schéma zapojení pro úlohy 1 - 5}
+	\label{fig:mesh1}
+\end{figure}
+\section*{Vypracování}
+\begin{enumerate}
+	\item VA usměrňovací diody a schottkyho diody
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{12leden/1.png}
+		\caption{Graf}
+		\label{fig:mesh1}
+	\end{figure}
+	\item VA 4x LED (červena, zelená, žlutá, modrá)
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{12leden/2.png}
+		\caption{Graf }
+		\label{fig:mesh2}
+	\end{figure}
+	\item VA zenerovy diody pro napětí  2,4 V; 3,0 V; 3,6 V; 4,3 V
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{12leden/3.png}
+		\caption{Graf}
+		\label{fig:mesh3}
+	\end{figure}
+	\item VA transilu
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{12leden/4.png}
+		\caption{Graf}
+		\label{fig:mesh4}
+	\end{figure}
+	\item NTC rezistor při normální teplotě a zahřátý v prstech (cca 30 $s$)
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{12leden/5.png}
+		\caption{Graf}
+		\label{fig:mesh5}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{zapojeni2.png}
+		\caption{Schéma zapojení pro úlohu 6}
+		\label{fig:mesh6}
+	\end{figure}
+	\item\begin{enumerate}
+		\item Napětí na střídavém zdroji (sonda A)
+		\item napétí na rezistoru připojeném k diodě zapojené jako jednocestný usměrňovač (sonda B)
+		\item totéž jako v úkolu 6b + přidaný filtrační kondenzátor 1 $\mu F$, 2 $\mu F$, 5 $\mu F$
+	\end{enumerate}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{6..png}
+		\caption{vypracovani ukolu 6}
+		\label{fig:mesh7}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{zapojeni3.png}
+		\caption{Schéma zapojení pro úlohu 7}
+		\label{fig:mesh8}
+	\end{figure}
+	\item\begin{enumerate}
+		\item Napětí na střídavém zdroji (sonda A)
+		\item napětí na rezistoru připojeném ke dvoucestnému usměrňovači zapojenému ze 4 diod (Gr\"{a}tzovo
+		zapojení)
+		\item totéž jako v úkolu 7b + přidaný filtrační kondenzátor 1 $\mu F$, 2 $\mu F$, 5 $\mu F$
+	\end{enumerate}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{7..png}
+		\caption{vypracovani ukolu 7}
+		\label{fig:mesh9}
+	\end{figure}
+\end{enumerate}
+
+
+\section*{Závěr}
+Data která jsme naměřili na RLC 2000, nás po předchozí laboratorní práci a vykladu o diodách v technické fyzice nepřekvapil, avšak bylo přínosné vidět jak diody chovaji v realém světě. Boužel jsme data z prvních 4 měření uložili v formátu \texttt{.va} takže jsme z uložených dat nebyli schopni vytvořit obrázky, které bychom mohli pŕiložit do protokolu.
+
+\section*{Použité pomucky:}
+\begin{list}{}{}
+	\item \Large{RLC 2000}
+	\item \Large{\LaTeX}
+\end{list}
+\end{document}
