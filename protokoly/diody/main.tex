@@ -17,15 +17,15 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 
-\newcommand{\jmeno}{David Škrob, Tomáš Názler, Martin Číž}
-\newcommand{\trida}{L3A}
+\newcommand{\jmeno}{David Škrob}
+\newcommand{\trida}{L4A}
 \newcommand{\poradovecislo}{}
 \newcommand{\nazevulohy}{Diody na RC2000}
 \newcommand{\cisloulohy}{}
 \newcommand{\predmet}{Technické měření}
 \newcommand{\skupina}{}
-\newcommand{\datummereni}{14.12.2021 a 12.1.2022}
-\newcommand{\datumodevzdani}{12.1.2022}
+\newcommand{\datummereni}{9.1.2023}
+\newcommand{\datumodevzdani}{11.1.2023}
 \newcommand{\klasifikace}{}
 
 \begin{document}
@@ -37,44 +37,37 @@ Změřte voltamperové charakteristiky (VA), použijte modul V-A Characteristics
 charakteristiky v každém úkolu změřte do jednoho grafu.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.45\textwidth]{zapojeni1.png}
+	\includegraphics[width=0.4\textwidth]{zapojeni1.png}
 	\caption{Schéma zapojení pro úlohy 1 - 5}
-	\label{fig:mesh1}
+	\label{fig:schema15}
 \end{figure}
 \section*{Vypracování}
 \begin{enumerate}
-	\item VA usměrňovací diody a schottkyho diody
+	\item VA usměrňovací diody a schottkyho diody a transilu
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{12leden/1.png}
+		\includegraphics[width=0.75\textwidth]{9leden/diody1.png}
 		\caption{Graf}
 		\label{fig:mesh1}
 	\end{figure}
 	\item VA 4x LED (červena, zelená, žlutá, modrá)
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{12leden/2.png}
+		\includegraphics[width=0.75\textwidth]{9leden/ledky.png}
 		\caption{Graf }
 		\label{fig:mesh2}
 	\end{figure}
 	\item VA zenerovy diody pro napětí  2,4 V; 3,0 V; 3,6 V; 4,3 V
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{12leden/3.png}
+		\includegraphics[width=0.75\textwidth]{9leden/zenerovy.png}
 		\caption{Graf}
 		\label{fig:mesh3}
-	\end{figure}
-	\item VA transilu
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{12leden/4.png}
-		\caption{Graf}
-		\label{fig:mesh4}
 	\end{figure}
 	\item NTC rezistor při normální teplotě a zahřátý v prstech (cca 30 $s$)
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{12leden/5.png}
+		\includegraphics[width=0.75\textwidth]{9leden/NTCrezistor.png}
 		\caption{Graf}
 		\label{fig:mesh5}
 	\end{figure}
@@ -86,8 +79,8 @@ charakteristiky v každém úkolu změřte do jednoho grafu.
 	\end{figure}
 	\item\begin{enumerate}
 		\item Napětí na střídavém zdroji (sonda A)
-		\item napétí na rezistoru připojeném k diodě zapojené jako jednocestný usměrňovač (sonda B)
-		\item totéž jako v úkolu 6b + přidaný filtrační kondenzátor 1 $\mu F$, 2 $\mu F$, 5 $\mu F$
+		\item Napětí na rezistoru připojeném k diodě zapojené jako jednocestný usměrňovač (sonda B)
+		\item Totéž jako v úkolu 6b + přidaný filtrační kondenzátor 1 $\mu F$, 2 $\mu F$, 5 $\mu F$
 	\end{enumerate}
 	\begin{figure}[H]
 		\centering
@@ -97,7 +90,7 @@ charakteristiky v každém úkolu změřte do jednoho grafu.
 	\end{figure}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\textwidth]{zapojeni3.png}
+		\includegraphics[width=0.4\textwidth]{zapojeni3.png}
 		\caption{Schéma zapojení pro úlohu 7}
 		\label{fig:mesh8}
 	\end{figure}
@@ -117,11 +110,10 @@ charakteristiky v každém úkolu změřte do jednoho grafu.
 
 
 \section*{Závěr}
-Data která jsme naměřili na RLC 2000, nás po předchozí laboratorní práci a vykladu o diodách v technické fyzice nepřekvapil, avšak bylo přínosné vidět jak diody chovaji v realém světě. Boužel jsme data z prvních 4 měření uložili v formátu \texttt{.va} takže jsme z uložených dat nebyli schopni vytvořit obrázky, které bychom mohli pŕiložit do protokolu.
+Data která jsem naměřil na RLC 2000, mě po předchozích laboratorních pracích a výkladu o diodách v technické fyzice v minulém ročníku nepřekvapil, avšak bylo přínosné vidět jak diody chovají v reálném světě. %Boužel jsme data z prvních 4 měření uložili v formátu \texttt{.va} takže jsme z uložených dat nebyli schopni vytvořit obrázky, které bychom mohli přiložit do protokolu.
 
 \section*{Použité pomucky:}
 \begin{list}{}{}
 	\item \Large{RLC 2000}
-	\item \Large{\LaTeX}
 \end{list}
 \end{document}
