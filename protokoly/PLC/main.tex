@@ -33,17 +33,32 @@
 \input{tabulka_hlavni.tex}
 
 
+\section*{Zadání}
+U každého úkolu nejprve sestavte pravdivostní tabulku, z ní napište rovnici
+logické funkce, proved’te minimalizaci pomocí Karnaughovy mapy a naprogramujte do PLC. Protokol bude obsahovat všechny tyto kroky.
+\begin{enumerate}
+	\item Realizujte zapojení pro zadání Y5 z ”
+	pracovního sešitu“ (text na
+	fyzika.websy.cz, maturitní okruh č. 5).
+	\item  Navrhněte logický obvod tak, aby signalizoval poplach tehdy, když
+	ve výrobním procesu překročí dovolenou hodnotu alespoň 2 měřené
+	veličiny ze 4 sledovaných.
+	\item Navrhněte logický obvod hlasovacího zařízení pro čtyřčlennou komisi.
+	Návrh projde, hlasuje-li pro návrh většina, při rovnosti hlasů rozhoduje
+	hlas předsedy.
+\end{enumerate}
+
 \section*{Vypracování}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{PLC_1.png}
+	\includegraphics[width=0.7\textwidth]{PLC_1.png}
 	\caption{Zapojení úkolu 1}
 	\label{fig:mesh1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{PLC_2.png}
+	\includegraphics[width=0.7\textwidth]{PLC_2.png}
 	\caption{Zapojení úkolu 2}
 	\label{fig:mesh2}
 \end{figure}
@@ -65,7 +80,7 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{PLC_3.png}
+	\includegraphics[width=0.7\textwidth]{PLC_3.png}
 	\caption{Zapojení úkolu 3}
 	\label{fig:mesh3}
 \end{figure}
@@ -85,10 +100,13 @@
 \end{figure}
 
 \section*{Závěr}
+Prace s softwerem \textit{Alpha} pro nás nebyla moc náročná, logické hradla umime jednoduše využit, tudíž zadané ulohy pro nás byly jednoduché. Protože máme kompletní poznámky v sešitě z minulého roku tak jsme našli již zhotovenou Karnaughova mapu pro zadaní úkolu čislo 3. Tudíž jsme zvládli práci na PLC v rekordním čase.
+\vfill
 \section*{Použité pomucky:}
 \begin{tabularx}{\linewidth}{c|c|c|c}
 	Přístroj – pomůcka & Typ & Rozsah (pouze analogové)
 	& Poznámka \\
 	\hline
+	PLC & mas 6 rca & &
 \end{tabularx}
 \end{document}

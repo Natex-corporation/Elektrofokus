@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.1)  19 JAN 2023 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.1)  26 JAN 2023 06:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,65 +648,66 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <PLC_1.png, id=4, 496.85625pt x 365.11406pt>
 File: PLC_1.png Graphic file (type png)
 <use PLC_1.png>
-Package pdftex.def Info: PLC_1.png  used on input line 39.
-(pdftex.def)             Requested size: 314.12163pt x 230.83646pt.
+Package pdftex.def Info: PLC_1.png  used on input line 54.
+(pdftex.def)             Requested size: 366.46991pt x 269.3055pt.
 <PLC_2.png, id=5, 493.845pt x 365.86688pt>
 File: PLC_2.png Graphic file (type png)
 <use PLC_2.png>
-Package pdftex.def Info: PLC_2.png  used on input line 46.
-(pdftex.def)             Requested size: 314.12163pt x 232.71367pt.
-<hodnoty1.png, id=7, 239.39438pt x 255.20343pt>
-File: hodnoty1.png Graphic file (type png)
-<use hodnoty1.png>
-Package pdftex.def Info: hodnoty1.png  used on input line 53.
-(pdftex.def)             Requested size: 157.0608pt x 167.43399pt.
+Package pdftex.def Info: PLC_2.png  used on input line 61.
+(pdftex.def)             Requested size: 366.46991pt x 271.49649pt.
 
 [1
 
 {C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PLC_1.png>
- <./PLC_2.png>]
-<hodnoty3.png, id=15, 331.99031pt x 110.66344pt>
+]
+<hodnoty1.png, id=13, 239.39438pt x 255.20343pt>
+File: hodnoty1.png Graphic file (type png)
+<use hodnoty1.png>
+Package pdftex.def Info: hodnoty1.png  used on input line 68.
+(pdftex.def)             Requested size: 157.0608pt x 167.43399pt.
+<hodnoty3.png, id=14, 331.99031pt x 110.66344pt>
 File: hodnoty3.png Graphic file (type png)
 <use hodnoty3.png>
-Package pdftex.def Info: hodnoty3.png  used on input line 60.
+Package pdftex.def Info: hodnoty3.png  used on input line 75.
 (pdftex.def)             Requested size: 157.0608pt x 52.3529pt.
-<PLC_3.png, id=16, 498.36188pt x 371.88937pt>
+<PLC_3.png, id=15, 498.36188pt x 371.88937pt>
 File: PLC_3.png Graphic file (type png)
 <use PLC_3.png>
-Package pdftex.def Info: PLC_3.png  used on input line 68.
-(pdftex.def)             Requested size: 314.12163pt x 234.4107pt.
-<foto1.jpg, id=17, 1129.21875pt x 2007.5pt>
+Package pdftex.def Info: PLC_3.png  used on input line 83.
+(pdftex.def)             Requested size: 366.46991pt x 273.47443pt.
+ [2 <./PLC_2.png> <./hodnoty1.png> <./hodnoty3.png>]
+<foto1.jpg, id=22, 1129.21875pt x 2007.5pt>
 File: foto1.jpg Graphic file (type jpg)
 <use foto1.jpg>
-Package pdftex.def Info: foto1.jpg  used on input line 75.
+Package pdftex.def Info: foto1.jpg  used on input line 90.
 (pdftex.def)             Requested size: 157.0608pt x 279.21016pt.
- [2 <./hodnoty1.png> <./hodnoty3.png> <./PLC_3.png>]
-<foto2.jpg, id=24, 1129.21875pt x 2007.5pt>
+<foto2.jpg, id=23, 1129.21875pt x 2007.5pt>
 File: foto2.jpg Graphic file (type jpg)
 <use foto2.jpg>
-Package pdftex.def Info: foto2.jpg  used on input line 82.
+Package pdftex.def Info: foto2.jpg  used on input line 97.
 (pdftex.def)             Requested size: 157.0608pt x 279.21016pt.
-
-Underfull \hbox (badness 10000) in alignment at lines 93--93
+ [3 <./PLC_3.png> <./foto1.jpg>]
+Underfull \hbox (badness 10000) in alignment at lines 111--111
 [][][][] 
  []
 
-[3 <./foto1.jpg> <./foto2.jpg>] (main.aux) ) 
+[4 <./foto2.jpg>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14781 strings out of 478659
- 304326 string characters out of 2845921
- 676705 words of memory out of 3000000
- 32602 multiletter control sequences out of 15000+600000
- 416385 words of font info for 51 fonts, out of 8000000 for 9000
+ 14790 strings out of 478659
+ 304478 string characters out of 2845921
+ 679849 words of memory out of 3000000
+ 32610 multiletter control sequences out of 15000+600000
+ 417521 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,13n,104p,408b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/david/AppData/Local/Progr
-ams/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/david/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (3 pages, 315917 bytes).
+{C:/Users/david/AppData/Local/Programs/MiKTeX/fon
+ts/enc/dvips/base/8r.enc}<C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 327309 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
