@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
 \usepackage[margin=13mm, tmargin=15mm, bmargin=12mm]{geometry}
@@ -9,7 +9,6 @@
 \usepackage{tabularx}
 \usepackage{fancyhdr}
 \usepackage{mathptmx}
-\usepackage{lipsum}
 \usepackage{float}
 \usepackage{longtable}
 
@@ -35,7 +34,7 @@
 
 \section*{Zadání}
 U každého úkolu nejprve sestavte pravdivostní tabulku, z ní napište rovnici
-logické funkce, proved’te minimalizaci pomocí Karnaughovy mapy a naprogramujte do PLC. Protokol bude obsahovat všechny tyto kroky.
+logické funkce, proveďte minimalizaci pomocí Karnaughovy mapy a naprogramujte do PLC. Protokol bude obsahovat všechny tyto kroky.
 \begin{enumerate}
 	\item Realizujte zapojení pro zadání Y5 z ”
 	pracovního sešitu“ (text na
@@ -51,11 +50,33 @@ logické funkce, proved’te minimalizaci pomocí Karnaughovy mapy a naprogramuj
 \section*{Vypracování}
 \begin{figure}[H]
 	\centering
+	\includegraphics[width=0.4\textwidth]{priklad1.png}
+	\caption{Karnaughova mapa k  úkolu 1}
+\end{figure}
+\begin{figure}[H]
+	\centering
 	\includegraphics[width=0.7\textwidth]{PLC_1.png}
 	\caption{Zapojení úkolu 1}
 	\label{fig:mesh1}
 \end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{hodnoty1.png}
+	\caption{Seznam hodnot k úkolu 2}
+	\label{fig:hodnoty1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{hodnoty3.png}
+	\caption{Karnaughova mapa k úkolu 2}
+	\label{fig:hodnoty2}
+\end{figure}
+
+\begin{equation}
+	Y = \overline{abc + abd + acd +bcd}
+	%\caption{Rovnice logické funkce}
+\end{equation}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{PLC_2.png}
@@ -65,19 +86,16 @@ logické funkce, proved’te minimalizaci pomocí Karnaughovy mapy a naprogramuj
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{hodnoty1.png}
-	\caption{Seznam hodnot k úkolu 2}
-	\label{fig:hodnoty1}
+	\includegraphics[width=0.3\textwidth]{foto1.jpg}
+	\caption{Seznam hodnot k úkolu 3}
+	\label{fig:foto1}
 \end{figure}
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{hodnoty3.png}
-	\caption{Karnaughova mapa k úkolu 2}
-	\label{fig:hodnoty2}
+	\includegraphics[width=0.3\textwidth, angle=270]{foto2.jpg}
+	\caption{Karnaughova mapa k úkolu 3}
+	\label{fig:foto2}
 \end{figure}
-
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{PLC_3.png}
@@ -85,22 +103,8 @@ logické funkce, proved’te minimalizaci pomocí Karnaughovy mapy a naprogramuj
 	\label{fig:mesh3}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{foto1.jpg}
-	\caption{Seznam hodnot k úkolu 3}
-	\label{fig:foto1}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth, angle=270]{foto2.jpg}
-	\caption{Karnaughova mapa k úkolu 3}
-	\label{fig:foto2}
-\end{figure}
-
 \section*{Závěr}
-Prace s softwerem \textit{Alpha} pro nás nebyla moc náročná, logické hradla umime jednoduše využit, tudíž zadané ulohy pro nás byly jednoduché. Protože máme kompletní poznámky v sešitě z minulého roku tak jsme našli již zhotovenou Karnaughova mapu pro zadaní úkolu čislo 3. Tudíž jsme zvládli práci na PLC v rekordním čase.
+Prace s softwarem \textit{Alpha} pro nás nebyla moc náročná, logické hradla umíme jednoduše využít, tudíž zadané úlohy pro nás byly jednoduché. Protože máme kompletní poznámky v sešitě z minulého roku, tak jsme našli již zhotovenou Karnaughova mapu pro zadání úkolu číslo 3. Tudíž jsme zvládli práci na PLC v rekordním čase.
 \vfill
 \section*{Použité pomucky:}
 \begin{tabularx}{\linewidth}{c|c|c|c}
