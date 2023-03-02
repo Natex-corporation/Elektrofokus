@@ -1,0 +1,116 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[margin=13mm, tmargin=15mm, bmargin=12mm]{geometry}
+\usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{chngpage}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{longtable}
+
+\renewcommand{\baselinestretch}{1.15}
+\pagenumbering{gobble}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\jmeno}{David Škrob, Tomáš Názler, Radek Novotný}
+\newcommand{\trida}{L4A}
+\newcommand{\poradovecislo}{}
+\newcommand{\nazevulohy}{PLC}
+\newcommand{\cisloulohy}{}
+\newcommand{\predmet}{Technické měření}
+\newcommand{\skupina}{}
+\newcommand{\datummereni}{19.1.2023}
+\newcommand{\datumodevzdani}{}
+\newcommand{\klasifikace}{}
+\begin{document}
+\input{okraj.tex}
+\input{tabulka_hlavni.tex}
+
+
+\section*{Zadání}
+U každého úkolu nejprve sestavte pravdivostní tabulku, z ní napište rovnici
+logické funkce, proveďte minimalizaci pomocí Karnaughovy mapy a naprogramujte do PLC. Protokol bude obsahovat všechny tyto kroky.
+\begin{enumerate}
+	\item Realizujte zapojení pro zadání Y5 z ”
+	pracovního sešitu“ (text na
+	fyzika.websy.cz, maturitní okruh č. 5).
+	\item  Navrhněte logický obvod tak, aby signalizoval poplach tehdy, když
+	ve výrobním procesu překročí dovolenou hodnotu alespoň 2 měřené
+	veličiny ze 4 sledovaných.
+	\item Navrhněte logický obvod hlasovacího zařízení pro čtyřčlennou komisi.
+	Návrh projde, hlasuje-li pro návrh většina, při rovnosti hlasů rozhoduje
+	hlas předsedy.
+\end{enumerate}
+
+\section*{Vypracování}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{priklad1.png}
+	\caption{Karnaughova mapa k  úkolu 1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{PLC_1.png}
+	\caption{Zapojení úkolu 1}
+	\label{fig:mesh1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{hodnoty1.png}
+	\caption{Seznam hodnot k úkolu 2}
+	\label{fig:hodnoty1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{hodnoty3.png}
+	\caption{Karnaughova mapa k úkolu 2}
+	\label{fig:hodnoty2}
+\end{figure}
+
+\begin{equation}
+	Y = \overline{abc + abd + acd +bcd}
+	%\caption{Rovnice logické funkce}
+\end{equation}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{PLC_2.png}
+	\caption{Zapojení úkolu 2}
+	\label{fig:mesh2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{foto1.jpg}
+	\caption{Seznam hodnot k úkolu 3}
+	\label{fig:foto1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth, angle=270]{foto2.jpg}
+	\caption{Karnaughova mapa k úkolu 3}
+	\label{fig:foto2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{PLC_3.png}
+	\caption{Zapojení úkolu 3}
+	\label{fig:mesh3}
+\end{figure}
+
+\section*{Závěr}
+Prace s softwarem \textit{Alpha} pro nás nebyla moc náročná, logické hradla umíme jednoduše využít, tudíž zadané úlohy pro nás byly jednoduché. Protože máme kompletní poznámky v sešitě z minulého roku, tak jsme našli již zhotovenou Karnaughova mapu pro zadání úkolu číslo 3. Tudíž jsme zvládli práci na PLC v rekordním čase.
+\vfill
+\section*{Použité pomucky:}
+\begin{tabularx}{\linewidth}{c|c|c|c}
+	Přístroj – pomůcka & Typ & Rozsah (pouze analogové)
+	& Poznámka \\
+	\hline
+	PLC & mas 6 rca & &
+\end{tabularx}
+\end{document}
