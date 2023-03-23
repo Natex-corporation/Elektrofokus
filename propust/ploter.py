@@ -64,7 +64,7 @@ axis2[1, 1].set_title('horní porpust R = 1 k$\Omega$')
 #axis2[1, 1].set_xlabel('f [Hz]')
 axis2[1, 1].set_xscale('log')
 plt.savefig('lol1.png')
-plt.show()
+#plt.show()
 
 max_voltage = 14
 voltage_err =0.04
@@ -122,4 +122,4 @@ axis[1, 1].plot(p, func(np.log(p), *parsHR2), c="m")
 #plt.legend(bbox_to_anchor = (1.0, 1), loc = 'best')
 
 plt.savefig("lul.png")
-plt.show()
+#plt.show()
